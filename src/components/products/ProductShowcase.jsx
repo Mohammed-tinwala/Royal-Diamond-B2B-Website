@@ -5,7 +5,7 @@ import { products } from "../../data/products";
 
 export default function ProductShowcase() {
     const featuredProduct = products[0];
-    const remainingProducts = products.slice(1);
+    const remainingProducts = products;
 
     return (
         <section className="py-12 bg-secondary">

@@ -4,7 +4,7 @@ import { services } from "../../data/services";
 
 const Services = () => {
     return (
-        <section className="py-8">
+        <section className="py-6">
             <div className="max-w-360 mx-auto px-6 lg:px-12">
 
                 {/* Header */}
