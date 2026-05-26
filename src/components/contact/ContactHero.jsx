@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactHero() {
     return (
-        <section className="relative min-h-[70vh] flex items-center bg-primary overflow-hidden">
+        <section className="relative min-h-[70vh] mt-24 lg:mt-32 flex items-center bg-primary overflow-hidden">
             <div className="absolute top-0 right-0 w-96 h-96 bg-[#FF5A1F]/20 blur-[120px]" />
             <div className="max-w-360 mx-auto px-6 lg:px-12 text-white">
                 <span className="px-4 py-2 rounded-full bg-white/10 text-sm">

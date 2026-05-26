@@ -4,7 +4,7 @@ import { products } from "../../data/products";
 
 export default function ProductCatalog() {
     return (
-        <section className="py-12">
+        <section className="py-12 pt-24 lg:pt-32">
 
             <div className="max-w-360 mx-auto px-6 lg:px-12">
 

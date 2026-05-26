@@ -11,7 +11,7 @@ export default function AboutHero() {
     
 
     return (
-        <section className="relative flex items-center">
+        <section className="relative flex items-center pt-16 md:pt-22 md:pb-12">
 
             {/* Background Decoration */}
 
