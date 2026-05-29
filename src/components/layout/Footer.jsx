@@ -10,7 +10,7 @@ import { ArrowRight } from "lucide-react";
 
 const Footer = () => {
     return (
-        <footer className="bg-[#032850] text-white overflow-hidden">
+        <footer className="bg-primary text-white overflow-hidden">
             <div className="max-w-360 mx-auto">
 
                 {/* Top Section */}
@@ -20,7 +20,7 @@ const Footer = () => {
                     <div className="p-8 lg:p-12 border-b lg:border-b-0 lg:border-r border-white/10">
 
                         <img
-                            src="/logo.png"
+                            src="/logo-white.png"
                             alt="Royal Diamond"
                             className="h-14 mb-6"
                         />
@@ -54,16 +54,16 @@ const Footer = () => {
                             </li>
 
                             <li>
-                                <a href="/services" className="hover:text-white transition">
-                                    Services
+                                <a href="/products" className="hover:text-white transition">
+                                    Products
                                 </a>
                             </li>
 
-                            <li>
+                            {/* <li>
                                 <a href="/partners" className="hover:text-white transition">
                                     Global Partners
                                 </a>
-                            </li>
+                            </li> */}
 
                             <li>
                                 <a href="/contact" className="hover:text-white transition">

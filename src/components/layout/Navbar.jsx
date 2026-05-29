@@ -42,7 +42,7 @@ const Navbar = () => {
 
           <Link to="/">
             <img
-              src="/logo.png"
+              src={isScrolled ? "/logo-white.png" : "/logo.png"}
               alt="Royal Industry"
               className="h-12 md:h-14 w-auto object-contain"
             />
@@ -60,9 +60,11 @@ const Navbar = () => {
                   <li key={link.id}>
                     <Link
                       to={link.path}
-                      className="text-sm font-medium hover:text-secondary transition-colors"
+                      className="relative text-sm font-medium transition-colors duration-300 hover:text-secondary group py-2"
                     >
                       {link.label}
+                      {/* The Animated Line */}
+                      <span className="absolute bottom-0 left-0 w-full h-0.5 bg-secondary transform scale-x-0 transition-transform duration-300 origin-left group-hover:scale-x-100" />
                     </Link>
                   </li>
                 ))}
@@ -71,9 +73,12 @@ const Navbar = () => {
 
             </div>
 
-            <button
-              className="bg-secondary text-white px-7 py-4 rounded-full text-sm font-medium hover:opacity-90 transition-opacity hidden md:flex"
-            >
+            <button className="bg-secondary text-white px-7 py-4 rounded-full text-sm font-medium transition-all hidden md:flex cursor-pointer duration-300 
+  hover:opacity-100 
+  hover:-translate-y-0.5 
+  hover:shadow-lg 
+  hover:shadow-secondary/40 
+  active:scale-95">
               Login
             </button>
 
@@ -130,7 +135,7 @@ const Navbar = () => {
 
       </div>
 
-    </nav>
+    </nav >
   );
 };
 

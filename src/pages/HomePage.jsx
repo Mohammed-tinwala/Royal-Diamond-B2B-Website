@@ -8,6 +8,7 @@ import Footer from '../components/layout/Footer';
 import Testimonials from '../components/testimonial/Testimonials';
 import ContactSection from '../components/ContactSection';
 import ProductShowcase from '../components/products/ProductShowcase';
+import CategoriesSection from '../components/CategoriesSection';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             {/* <MegaMenu /> */}
             <Hero />
             <Services />
+            <CategoriesSection />
             <ProductShowcase />
             <TradeRouteSection />
             <LogisticsProcess />

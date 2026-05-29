@@ -3,7 +3,7 @@ import { Quote, Star } from "lucide-react";
 
 const TestimonialCard = ({ testimonial }) => {
   return (
-    <div className="bg-white rounded-[32px] p-8 shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300">
+    <div className="bg-white rounded-4xl p-8 shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300">
 
       <div className="flex items-center justify-between mb-6">
         <Quote

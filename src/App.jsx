@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 
 import MainLayout from "./layouts/MainLayout";
 
@@ -10,6 +11,14 @@ import Products from "./pages/ProductPage";
 function App() {
   return (
     <BrowserRouter>
+
+      <Toaster
+        position="top-right"
+        toastOptions={{
+          duration: 3000,
+        }}
+      />
+      
       <Routes>
 
         {/* Layout Routes */}
