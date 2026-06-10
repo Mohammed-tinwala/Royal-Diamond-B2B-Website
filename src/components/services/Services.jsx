@@ -38,12 +38,12 @@ const Services = () => {
                             Royal Diamond provides sourcing, logistics and import-export
                             solutions for oil & gas and global markets.
                         </p>
-                        <button className="group relative mt-6 lg:mt-0 bg-secondary text-white px-8 py-4 rounded-full text-sm font-medium overflow-hidden transition-all duration-300 hover:pr-12">
+                        {/* <button className="group relative mt-6 lg:mt-0 bg-secondary text-white px-8 py-4 rounded-full text-sm font-medium overflow-hidden transition-all duration-300 hover:pr-12">
                             <span className="relative z-10">View All Services</span>
                             <span className="absolute right-4 top-1/2 -translate-y-1/2 opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:right-5">
                                 →
                             </span>
-                        </button>
+                        </button> */}
                     </div>
                 </div>
 

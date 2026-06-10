@@ -75,8 +75,12 @@ export default function AboutCTA() {
                             }`}>
 
                             {/* Primary Button */}
-                            <button className="group bg-white cursor-pointer text-[#032850] hover:bg-[#FF5A1F] hover:text-white px-8 py-4.5 rounded-full font-semibold flex items-center gap-3 shadow-lg hover:shadow-xl hover:shadow-[#FF5A1F]/20 transition-all duration-300 hover:-translate-y-0.5 active:translate-y-0">
-                                <span>Request A Quote</span>
+                            <button onClick={() => { navigate('/contact') }} className="group bg-white cursor-pointer text-[#032850] hover:bg-[#FF5A1F] hover:text-white px-8 py-4.5 rounded-full font-semibold flex items-center gap-3 shadow-lg hover:shadow-xl hover:shadow-[#FF5A1F]/20 transition-all duration-300 hover:-translate-y-0.5 active:translate-y-0">
+                                <MessageSquare
+                                    size={18}
+                                    className="text-primary/60 group-hover:text-white transition-colors"
+                                />
+                                <span>Contact Us</span>
                                 <ArrowRight
                                     size={18}
                                     className="group-hover:translate-x-1.5 transition-transform duration-300"
@@ -84,13 +88,13 @@ export default function AboutCTA() {
                             </button>
 
                             {/* Secondary Ghost Button */}
-                            <button onClick={() => {navigate('/contact')}} className="group border cursor-pointer border-white/20 hover:border-white/60 bg-white/0 hover:bg-white/5 px-8 py-4.5 rounded-full font-medium flex items-center gap-2 transition-all duration-300">
+                            {/* <button onClick={() => {navigate('/contact')}} className="group border cursor-pointer border-white/20 hover:border-white/60 bg-white/0 hover:bg-white/5 px-8 py-4.5 rounded-full font-medium flex items-center gap-2 transition-all duration-300">
                                 <MessageSquare
                                     size={18}
                                     className="text-white/60 group-hover:text-white transition-colors"
                                 />
                                 <span>Contact Us</span>
-                            </button>
+                            </button> */}
 
                         </div>
 

@@ -9,6 +9,7 @@ import Testimonials from '../components/testimonial/Testimonials';
 import ContactSection from '../components/ContactSection';
 import ProductShowcase from '../components/products/ProductShowcase';
 import CategoriesSection from '../components/CategoriesSection';
+import Statistics from '../components/about/Statistics';
 
 const Home = () => {
     return (
@@ -19,7 +20,8 @@ const Home = () => {
             <CategoriesSection />
             <ProductShowcase />
             <TradeRouteSection />
-            <LogisticsProcess />
+            <Statistics />
+            {/* <LogisticsProcess /> */}
             <Testimonials />
             <ContactSection />
         </>

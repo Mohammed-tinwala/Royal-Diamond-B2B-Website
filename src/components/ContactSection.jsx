@@ -120,9 +120,9 @@ const ContactSection = () => {
                                 sourcing specialists.
                             </p>
 
-                            <button className="bg-secondary px-6 py-3 rounded-full font-medium hover:scale-105 transition">
+                            {/* <button className="bg-secondary px-6 py-3 rounded-full font-medium hover:scale-105 transition">
                                 Request Quote
-                            </button>
+                            </button> */}
                         </div>
 
                     </div>

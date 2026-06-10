@@ -59,12 +59,6 @@ const Footer = () => {
                                 </a>
                             </li>
 
-                            {/* <li>
-                                <a href="/partners" className="hover:text-white transition">
-                                    Global Partners
-                                </a>
-                            </li> */}
-
                             <li>
                                 <a href="/contact" className="hover:text-white transition">
                                     Contact Us
@@ -76,11 +70,11 @@ const Footer = () => {
                     {/* Resources */}
                     <div className="p-8 lg:p-12 border-b lg:border-b-0 lg:border-r border-white/10">
 
-                        <h4 className="font-semibold mb-6">
+                        {/* <h4 className="font-semibold mb-6">
                             Company
-                        </h4>
+                        </h4> */}
 
-                        <ul className="space-y-3 text-white/70">
+                        {/* <ul className="space-y-3 text-white/70">
                             <li>
                                 <a href="#" className="hover:text-white transition">
                                     Industries We Serve
@@ -110,7 +104,7 @@ const Footer = () => {
                                     Careers
                                 </a>
                             </li>
-                        </ul>
+                        </ul> */}
                     </div>
 
                     {/* Newsletter */}
@@ -173,7 +167,7 @@ const Footer = () => {
                         © {new Date().getFullYear()} Royal Diamond. All rights reserved.
                     </div>
 
-                    <div className="flex items-center gap-5">
+                    {/* <div className="flex items-center gap-5">
 
                         <a
                             href="#"
@@ -203,7 +197,7 @@ const Footer = () => {
                             <FaXTwitter size={18} />
                         </a>
 
-                    </div>
+                    </div> */}
                 </div>
 
             </div>
