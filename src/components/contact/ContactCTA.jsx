@@ -1,6 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function ContactCTA() {
+
+    const navigate = useNavigate();
+
+    const handleButtonClick = () => {
+        navigate("/contact");
+    }
+
     return (
         <section className="py-24">
 
@@ -19,7 +27,9 @@ export default function ContactCTA() {
                         business operations worldwide.
                     </p>
 
-                    <button className="mt-10 bg-white text-[#032850] px-8 py-4 rounded-full font-medium">
+                    <button
+                        onClick={handleButtonClick}
+                        className="mt-10 bg-white cursor-pointer text-[#032850] px-8 py-4 rounded-full font-medium">
                         Request A Quote
                     </button>
 

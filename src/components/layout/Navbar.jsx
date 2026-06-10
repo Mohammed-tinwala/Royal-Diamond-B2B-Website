@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useScrollSpy, scrollToSection } from "../../hooks/useScrollSpy";
 import { NAV_LINKS } from "../../utils/constants";
@@ -8,6 +8,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMenuOppened, setIsMenuOpened] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -29,6 +31,10 @@ const Navbar = () => {
     { name: "Products", path: "/products" },
     { name: "Contact", path: "/contact" }
   ];
+
+  const handleButtonClick = () => {
+    navigate("/products");
+  }
 
   return (
     <nav className={`w-full fixed top-0 right-0 left-0 z-1000 py-4 transition-all duration-300 ${isScrolled ? 'bg-primary/30 backdrop-blur-lg' : 'bg-transparent'} `}
@@ -73,13 +79,15 @@ const Navbar = () => {
 
             </div>
 
-            <button className="bg-secondary text-white px-7 py-4 rounded-full text-sm font-medium transition-all hidden md:flex cursor-pointer duration-300 
+            <button
+              onClick={handleButtonClick}
+              className="bg-secondary text-white px-7 py-4 rounded-full text-sm font-medium transition-all hidden md:flex cursor-pointer duration-300 
   hover:opacity-100 
   hover:-translate-y-0.5 
   hover:shadow-lg 
   hover:shadow-secondary/40 
   active:scale-95">
-              Login
+              Explore Products
             </button>
 
           </nav>
@@ -127,8 +135,9 @@ const Navbar = () => {
 
           <button
             className="mt-6 w-full bg-secondary text-white py-4 rounded-full font-medium"
+            onClick={handleButtonClick}
           >
-            Login
+            Explore Products
           </button>
 
         </div>

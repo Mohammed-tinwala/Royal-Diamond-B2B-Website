@@ -4,6 +4,8 @@ import QuoteModal from "../quotation/QuoteModal";
 
 export default function ProductCard({ product }) {
 
+    // console.log("Rendering ProductCard for:", product.title);
+
     const [openModal, setOpenModal] = useState(false);
 
     return (
@@ -13,7 +15,7 @@ export default function ProductCard({ product }) {
                 group
                 relative
                 bg-white
-                rounded-[32px]
+                rounded-4xl
                 overflow-hidden
                 border
                 border-gray-100
@@ -149,7 +151,7 @@ export default function ProductCard({ product }) {
                         leading-snug
                         text-[#032850]
                         line-clamp-2
-                        min-h-[64px]
+                        min-h-16
                     "
                     >
                         {product.title}
@@ -162,9 +164,8 @@ export default function ProductCard({ product }) {
                         text-gray-600
                         mt-4
                         leading-relaxed
-                        flex-1
-                        line-clamp-4
-                        min-h-[110px]
+                        line-clamp-2
+                        
                     "
                     >
                         {product.description}
@@ -237,6 +238,7 @@ export default function ProductCard({ product }) {
 
             <QuoteModal
                 isOpen={openModal}
+                setOpenModal={setOpenModal}
                 onClose={() => setOpenModal(false)}
                 product={product}
             />

@@ -14,6 +14,7 @@ function App() {
 
       <Toaster
         position="top-right"
+        className="z-9999"
         toastOptions={{
           duration: 3000,
         }}

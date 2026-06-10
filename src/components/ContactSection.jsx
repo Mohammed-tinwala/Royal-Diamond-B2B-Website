@@ -1,20 +1,13 @@
 import React from "react";
-import {
-    MapPin,
-    Phone,
-    Mail,
-    Clock,
-    ArrowRight,
-    Building2,
-} from "lucide-react";
+import { MapPin, Phone, Mail, Clock, ArrowRight, Building2 } from "lucide-react";
+import ContactForm from './contact/ContactForm';
 
 const ContactSection = () => {
     return (
-        <section className="mb-4">
+        <section className="mb-8">
             <div className="max-w-360 mx-auto px-6 lg:px-12">
 
                 {/* Header */}
-
                 <div className="text-center mb-16">
                     <span className="text-secondary font-medium">
                         Contact Royal Diamond
@@ -33,19 +26,15 @@ const ContactSection = () => {
                 </div>
 
                 {/* Content */}
-
                 <div className="grid lg:grid-cols-2 gap-10">
 
                     {/* Left Side */}
-
                     <div className="bg-primary text-white rounded-4xl p-8 lg:p-12">
-
                         <h3 className="text-3xl font-semibold mb-10">
                             Get In Touch
                         </h3>
 
                         <div className="space-y-8">
-
                             <div className="flex gap-4">
                                 <div className="w-14 h-14 rounded-2xl bg-white/10 flex items-center justify-center">
                                     <MapPin size={24} />
@@ -140,81 +129,7 @@ const ContactSection = () => {
 
                     {/* Form */}
 
-                    <div className="bg-white rounded-4xl p-8 lg:p-12 shadow-sm">
-
-                        <h3 className="text-3xl font-semibold mb-8">
-                            Send An Inquiry
-                        </h3>
-
-                        <form className="space-y-5">
-
-                            <div className="grid md:grid-cols-2 gap-5">
-
-                                <input
-                                    type="text"
-                                    placeholder="Full Name"
-                                    className="h-14 px-5 rounded-2xl border border-gray-200 outline-none focus:border-[#FF5A1F]"
-                                />
-
-                                <input
-                                    type="text"
-                                    placeholder="Company Name"
-                                    className="h-14 px-5 rounded-2xl border border-gray-200 outline-none focus:border-[#FF5A1F]"
-                                />
-
-                            </div>
-
-                            <div className="grid md:grid-cols-2 gap-5">
-
-                                <input
-                                    type="email"
-                                    placeholder="Email Address"
-                                    className="h-14 px-5 rounded-2xl border border-gray-200 outline-none focus:border-[#FF5A1F]"
-                                />
-
-                                <input
-                                    type="tel"
-                                    placeholder="Phone Number"
-                                    className="h-14 px-5 rounded-2xl border border-gray-200 outline-none focus:border-[#FF5A1F]"
-                                />
-
-                            </div>
-
-                            <input
-                                type="text"
-                                placeholder="Product / Service Required"
-                                className="w-full h-14 px-5 rounded-2xl border border-gray-200 outline-none focus:border-[#FF5A1F]"
-                            />
-
-                            <textarea
-                                rows="6"
-                                placeholder="Tell us about your requirements..."
-                                className="w-full p-5 rounded-2xl border border-gray-200 outline-none resize-none focus:border-[#FF5A1F]"
-                            />
-
-                            <button
-                                type="submit"
-                                className="
-                bg-secondary
-                text-white
-                px-8
-                py-4
-                rounded-full
-                font-medium
-                flex
-                items-center
-                gap-2
-                hover:scale-105
-                transition
-              "
-                            >
-                                Send Inquiry
-                                <ArrowRight size={18} />
-                            </button>
-
-                        </form>
-
-                    </div>
+                   <ContactForm />
 
                 </div>
             </div>

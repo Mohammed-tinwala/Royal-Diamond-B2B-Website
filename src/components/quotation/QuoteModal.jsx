@@ -1,12 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { X } from "lucide-react";
 import QuoteForm from "./QuoteForm";
+import toast from "react-hot-toast";
+import axios from "axios";
 
-export default function QuoteModal({
-    isOpen,
-    onClose,
-    product
-}) {
+export default function QuoteModal({ isOpen, onClose, product, setOpenModal }) {
+
 
     if (!isOpen) return null;
 
@@ -15,7 +14,7 @@ export default function QuoteModal({
             className="
                 fixed
                 inset-0
-                z-[9999]
+                z-999
                 flex
                 items-center
                 justify-center
@@ -33,7 +32,7 @@ export default function QuoteModal({
                     bg-white
                     w-full
                     max-w-3xl
-                    rounded-[32px]
+                    rounded-4xl
                     overflow-hidden
                     shadow-2xl
                     max-h-[90vh]
@@ -104,7 +103,7 @@ export default function QuoteModal({
                                 bg-white/10
                                 border
                                 border-white/10
-                                rounded-[24px]
+                                rounded-3xl
                                 p-5
                                 backdrop-blur-md
                             "
@@ -137,7 +136,7 @@ export default function QuoteModal({
 
                     <div className="p-8 lg:p-10">
 
-                        <QuoteForm product={product} />
+                        <QuoteForm product={product} isOpen={isOpen} setOpenModal={setOpenModal} />
 
                     </div>
 

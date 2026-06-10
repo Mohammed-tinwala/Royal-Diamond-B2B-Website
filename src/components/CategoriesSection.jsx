@@ -17,6 +17,7 @@ export default function CategoriesSection() {
             );
 
             if (response.data?.status) {
+                console.log("Fetched Categories:", response.data.data);
                 setCategories(response.data.data || []);
             }
         } catch (error) {

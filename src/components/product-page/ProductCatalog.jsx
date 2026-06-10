@@ -16,31 +16,20 @@ export default function ProductCatalog() {
     const fetchProducts = async () => {
 
         try {
-
             const response = await axios.post(
                 "https://babjibestpipes.com/royaldiamond/mobileapis/fetchProducts.php"
             );
 
-            console.log("Full Products Response:", response.data);
-
             if (response.data?.status === true) {
-
                 setProducts(response.data.data || []);
-
             } else {
-
                 setProducts([]);
-
             }
 
         } catch (error) {
-
             console.error("Products Fetch Error:", error);
-
         } finally {
-
             setLoading(false);
-
         }
     };
 
@@ -65,13 +54,11 @@ export default function ProductCatalog() {
 
     return (
         <section className="py-12 pt-24 lg:pt-32 bg-[#f8fafc] min-h-screen">
-
             <div className="max-w-360 mx-auto px-4 md:px-8 lg:px-12">
 
                 {/* =========================
                     HEADER
                 ========================= */}
-
                 <div className="mb-4 md:mb-6 lg:mb-8">
 
                     <span className="text-[#FF5A1F] font-medium">
@@ -97,13 +84,7 @@ export default function ProductCatalog() {
                 ========================= */}
 
                 <div className="mb-14">
-
-                    <div
-                        className="
-                            relative
-                            max-w-2xl
-                        "
-                    >
+                    <div className="relative max-w-2xl">
 
                         <Search
                             size={20}
@@ -188,7 +169,7 @@ export default function ProductCatalog() {
                                 "
                             >
 
-                                <div className="h-[260px] bg-gray-200" />
+                                <div className="h-65 bg-gray-200" />
 
                                 <div className="p-6">
 
