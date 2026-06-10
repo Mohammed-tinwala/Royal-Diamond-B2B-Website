@@ -26,17 +26,21 @@ const Services = () => {
                     }`}>
                     <div>
                         <span className="text-xs font-bold text-secondary uppercase tracking-[0.2em]">
-                            Our Expertise
+                            What We Supply
                         </span>
+
                         <h2 className="mt-4 text-3xl md:text-5xl font-semibold leading-tight text-gray-900">
-                            Industrial Trade & <br /> Logistics Solutions
+                            Industrial Pipes,
+                            <br />
+                            Fittings & Valve Solutions
                         </h2>
                     </div>
 
                     <div className="flex flex-col justify-between lg:items-end">
                         <p className="text-gray-500 text-base max-w-md leading-relaxed">
-                            Royal Diamond provides sourcing, logistics and import-export
-                            solutions for oil & gas and global markets.
+                            We supply certified industrial pipes, fittings, valves and
+                            related components for construction, infrastructure, oil & gas,
+                            manufacturing and industrial projects across the UAE and Africa.
                         </p>
                         {/* <button className="group relative mt-6 lg:mt-0 bg-secondary text-white px-8 py-4 rounded-full text-sm font-medium overflow-hidden transition-all duration-300 hover:pr-12">
                             <span className="relative z-10">View All Services</span>
@@ -56,8 +60,8 @@ const Services = () => {
                                 transitionDelay: `${index * 150}ms`,
                             }}
                             className={`transform transition-all duration-700 ${isVisible
-                                    ? "opacity-100 translate-y-0 rotate-0"
-                                    : "opacity-0 translate-y-20 rotate-2"
+                                ? "opacity-100 translate-y-0 rotate-0"
+                                : "opacity-0 translate-y-20 rotate-2"
                                 }`}
                         >
                             <ServiceCard service={service} />

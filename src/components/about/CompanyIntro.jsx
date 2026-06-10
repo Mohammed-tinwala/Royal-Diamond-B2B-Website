@@ -22,9 +22,11 @@ export default function CompanyIntro() {
                         </p>
 
                         <h2 className="text-4xl md:text-6xl font-semibold leading-tight mb-8">
-                            Building Reliable<br />
-                            Trade Partnerships<br />
-                            Worldwide
+                            Your Trusted Partner
+                            <br />
+                            For Industrial Supply
+                            <br />
+                            & Project Procurement
                         </h2>
 
                         <p className="text-gray-600 text-lg leading-relaxed mb-6">

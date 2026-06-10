@@ -14,7 +14,7 @@ export default function ContactFormSection() {
                         <h2 className="text-4xl md:text-6xl font-semibold mt-4 leading-tight">Send Us A Message</h2>
                         <p className="mt-6 text-gray-600 text-lg leading-relaxed">
                             Tell us about your sourcing,
-                            procurement or logistics requirements.
+                            procurement or product requirements.
                             Our team will respond shortly.
                         </p>
 
@@ -24,10 +24,10 @@ export default function ContactFormSection() {
                                 <p className="text-gray-600">Global supplier sourcing</p>
                             </div>
 
-                            <div>
+                            {/* <div>
                                 <h4 className="font-semibold">Logistics Services</h4>
                                 <p className="text-gray-600">International shipping solutions</p>
-                            </div>
+                            </div> */}
 
                             <div>
                                 <h4 className="font-semibold">Industrial Products</h4>

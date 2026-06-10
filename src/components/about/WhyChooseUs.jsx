@@ -11,23 +11,23 @@ import {
 const features = [
     {
         icon: ShieldCheck,
-        title: "Trusted Quality",
-        desc: "Products sourced from verified manufacturers worldwide."
+        title: "Large Inventory",
+        desc: "Extensive stock of pipes, fittings, and valves ready for immediate dispatch."
     },
     {
         icon: Globe,
-        title: "Global Reach",
-        desc: "Trade network spanning multiple international markets."
+        title: "Quality Assured",
+        desc: "All products meet international quality standards and certifications."
     },
     {
         icon: Truck,
-        title: "Reliable Logistics",
-        desc: "Efficient shipping and freight management solutions."
+        title: "Reliable Delivery",
+        desc: "Consistent supply chain with timely delivery across the UAE."
     },
     {
         icon: Package,
-        title: "Industrial Expertise",
-        desc: "Deep knowledge of industrial procurement requirements."
+        title: "B2B Focused",
+        desc: "Dedicated support for contractors, wholesalers, and project buyers."
     },
     {
         icon: BadgeDollarSign,

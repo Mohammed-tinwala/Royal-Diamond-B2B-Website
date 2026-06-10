@@ -19,9 +19,9 @@ const Home = () => {
             <Services />
             <CategoriesSection />
             <ProductShowcase />
-            <TradeRouteSection />
+            {/* <TradeRouteSection /> */}
             <Statistics />
-            {/* <LogisticsProcess /> */}
+            <LogisticsProcess />
             <Testimonials />
             <ContactSection />
         </>

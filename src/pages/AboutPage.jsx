@@ -18,15 +18,15 @@ export default function About() {
     return (
         <>
             <AboutHero />
-            <CompanyIntro />
-            <StoryTimeline />
+            {/* <CompanyIntro /> */}
+            {/* <StoryTimeline /> */}
             <MissionVission />
 
             <GlobalNetwork />
             <WhyChooseUs />
-            <IndustriesServed />
+            {/* <IndustriesServed /> */}
 
-            <LeadershipMessage />
+            {/* <LeadershipMessage /> */}
             <WorkProcess />
             <Statistics />
             <Testimonials />

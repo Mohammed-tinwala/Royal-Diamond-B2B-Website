@@ -3,28 +3,28 @@ import React, { useState, useEffect, useRef } from "react";
 const steps = [
     {
         number: "01",
-        title: "Requirement Analysis",
-        desc: "Understanding project specifications and sourcing requirements deeply to align objectives."
+        title: "Share Your Requirements",
+        desc: "Provide your project specifications, BOQ, or material requirements for pipes, fittings, valves, flanges, and industrial components."
     },
     {
         number: "02",
-        title: "Strategic Procurement",
-        desc: "Identifying trusted manufacturers and suppliers globally to balance cost and excellence."
+        title: "Product Selection & Quotation",
+        desc: "Our team identifies the most suitable certified products and prepares a competitive quotation tailored to your project needs."
     },
     {
         number: "03",
-        title: "Quality Verification",
-        desc: "Ensuring products strictly meet required technical specifications and international industry standards."
+        title: "Quality Assurance",
+        desc: "All products are sourced from trusted manufacturers and verified to meet required technical specifications and industry standards."
     },
     {
         number: "04",
-        title: "Global Logistics",
-        desc: "Managing complex cross-border shipping, custom clearance workflows, and freight operations."
+        title: "Procurement & Logistics",
+        desc: "We coordinate procurement, inventory management, packaging, and transportation to ensure a seamless supply process."
     },
     {
         number: "05",
-        title: "Delivery & Support",
-        desc: "Providing secure, timely site handover alongside comprehensive post-project operations assistance."
+        title: "On-Time Delivery",
+        desc: "Materials are delivered efficiently across the UAE and Africa, helping contractors and industrial clients keep projects on schedule."
     }
 ];
 
@@ -33,10 +33,10 @@ const ProcessRow = ({ step, index, sectionVisible }) => {
     return (
         <div
             className={`group relative bg-white border border-gray-100 rounded-[32px] p-8 lg:p-10 flex flex-col md:flex-row md:items-center gap-6 lg:gap-12 shadow-sm hover:shadow-xl transition-all duration-700 ease-out transform ${sectionVisible
-                    ? "opacity-100 translate-x-0"
-                    : index % 2 === 0
-                        ? "opacity-0 -translate-x-16"
-                        : "opacity-0 translate-x-16"
+                ? "opacity-100 translate-x-0"
+                : index % 2 === 0
+                    ? "opacity-0 -translate-x-16"
+                    : "opacity-0 translate-x-16"
                 }`}
             style={{ transitionDelay: `${index * 150}ms` }}
         >
@@ -100,10 +100,10 @@ export default function WorkProcess() {
                 <div className={`text-center mb-24 transition-all duration-1000 ease-out transform ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
                     }`}>
                     <span className="text-secondary font-semibold uppercase tracking-widest text-xs bg-secondary/10 px-4 py-1.5 rounded-full">
-                        How We Work
+                        Our Supply Process
                     </span>
                     <h2 className="mt-6 text-4xl md:text-6xl font-bold tracking-tight text-gray-900 leading-[1.15]">
-                        A Streamlined Process <br />
+                        Reliable Industrial Supply<br />
                         <span className="bg-gradient-to-r from-[#032850] to-[#FF5A1F] bg-clip-text text-transparent">
                             For Every Project
                         </span>

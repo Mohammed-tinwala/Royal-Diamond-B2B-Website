@@ -1,22 +1,23 @@
 export const processSteps = [
     {
-        id: "01",
-        title: "Submit RFQ",
+        id: 1,
+        number: "01",
+        title: "Share Your Requirement",
         description:
-            "Share your project requirements, equipment specifications, quantities, and destination details. Our sourcing specialists review every request carefully.",
+            "Send us your project specifications, BOQ, or material requirements for pipes, fittings, valves, and industrial accessories."
     },
-
     {
-        id: "02",
-        title: "Procurement & Logistics",
+        id: 2,
+        number: "02",
+        title: "Product Selection & Certification",
         description:
-            "We source products from trusted global manufacturers, arrange documentation, customs compliance, and coordinate international freight movement.",
+            "Our team sources certified products from trusted manufacturers, ensuring compliance with international quality standards."
     },
-
     {
-        id: "03",
-        title: "Delivery & Support",
+        id: 3,
+        number: "03",
+        title: "Fast Delivery to Your Project",
         description:
-            "Track shipments from dispatch to destination with complete visibility and receive dedicated support throughout the delivery process.",
-    },
+            "We coordinate procurement, inspection, and logistics to deliver materials across the UAE and Africa — on time, every time."
+    }
 ];

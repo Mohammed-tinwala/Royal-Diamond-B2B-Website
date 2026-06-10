@@ -63,7 +63,7 @@ export default function ProductShowcase() {
                 "https://babjibestpipes.com/royaldiamond/mobileapis/fetchProducts.php"
             );
 
-            console.log("Products Response:", response.data);
+            // console.log("Products Response:", response.data);
 
             if (response.data?.status === true) {
 

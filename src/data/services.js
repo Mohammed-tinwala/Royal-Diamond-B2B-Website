@@ -1,59 +1,57 @@
 import {
-  Package,
   Wrench,
-  ShieldCheck,
-  Truck,
-  ShoppingBag,
-  Globe2,
+  Settings,
+  CircleGauge,
+  Briefcase,
+  Truck
 } from "lucide-react";
 
 export const services = [
   {
     id: 1,
-    title: "Oilfield Equipment Supply",
+    title: "Industrial Pipes",
     description:
-      "Reliable sourcing and supply of drilling, production and maintenance equipment for oil & gas operations.",
-    icon: Package,
-    featured: true,
+      "Carbon steel, stainless steel and alloy steel pipes for industrial, infrastructure and oil & gas applications.",
+    icon: Wrench,
   },
 
   {
     id: 2,
-    title: "Pipes, Fittings & Accessories",
+    title: "Pipe Fittings",
     description:
-      "Complete range of industrial pipes, flanges, valves and accessories from trusted global manufacturers.",
+      "Elbows, tees, reducers, couplings and custom fittings manufactured to international standards.",
     icon: Wrench,
   },
 
   {
     id: 3,
-    title: "Customs Clearance & Compliance",
+    title: "Industrial Valves",
     description:
-      "End-to-end customs brokerage and documentation support ensuring smooth import and export operations.",
-    icon: ShieldCheck,
+      "Gate, globe, ball, butterfly and check valves designed for reliable flow control systems.",
+    icon: Settings,
   },
 
   {
     id: 4,
-    title: "Project & Heavy Cargo Logistics",
+    title: "Flanges",
     description:
-      "Specialized transport solutions for oversized equipment, industrial machinery and complex cargo projects.",
-    icon: Truck,
+      "Weld neck, slip-on, blind and threaded flanges available in multiple sizes and specifications.",
+    icon: CircleGauge,
   },
 
   {
     id: 5,
-    title: "Industrial Procurement",
+    title: "Project Supply Solutions",
     description:
-      "Strategic sourcing of industrial materials, spare parts and engineering supplies from global markets.",
-    icon: ShoppingBag,
+      "Complete material sourcing and procurement support for EPC contractors and industrial projects.",
+    icon: Briefcase,
   },
 
   {
     id: 6,
-    title: "Global Import & Export Solutions",
+    title: "Global Distribution",
     description:
-      "Connecting Dubai, Africa and international markets through efficient trade and supply chain management.",
-    icon: Globe2,
+      "Efficient supply and delivery network serving clients throughout the UAE and African markets.",
+    icon: Truck,
   },
 ];

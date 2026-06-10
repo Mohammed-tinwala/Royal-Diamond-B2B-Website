@@ -30,20 +30,23 @@ export default function AboutHero() {
                         }`}>
 
                         <span className="inline-flex px-4 py-2 rounded-full bg-[#FF5A1F]/10 text-[#FF5A1F] text-sm font-medium">
-                            About Royal Diamond
+                            Trusted Industrial Supply Partner
                         </span>
 
                         <h1 className="mt-4 text-2xl md:text-4xl lg:text-6xl font-semibold leading-tight">
-                            Connecting<br />
-                            Industries<br />
-                            Across Borders
+                            Delivering Certified
+                            <br />
+                            Industrial Solutions
+                            <br />
+                            Across UAE & Africa
                         </h1>
 
                         <p className="mt-8 text-lg text-gray-600 max-w-xl leading-relaxed">
-                            Royal Diamond provides industrial sourcing,
-                            procurement, logistics and import-export
-                            solutions connecting Dubai, Africa and
-                            global markets.
+                            Royal Diamond specializes in supplying certified
+                            industrial pipes, fittings, valves, flanges and
+                            related materials for construction, infrastructure,
+                            oil & gas, manufacturing and industrial projects
+                            across the UAE and Africa.
                         </p>
 
                         <div className="flex flex-wrap gap-4 mt-10">
@@ -89,7 +92,7 @@ export default function AboutHero() {
                                 {/* Button Text */}
 
                                 <span className="relative z-10">
-                                    Explore Products
+                                    View Product Range
                                 </span>
 
                                 {/* Arrow */}
@@ -136,23 +139,23 @@ export default function AboutHero() {
                         <div className="absolute -bottom-8 left-8 bg-white rounded-3xl shadow-xl p-6 w-72">
                             <div className="grid grid-cols-2 gap-4">
                                 <div>
-                                    <h3 className="text-3xl font-bold text-secondary">25+</h3>
-                                    <p className="text-sm text-gray-500">Years Experience</p>
+                                    <h3 className="text-3xl font-bold text-secondary">1000+</h3>
+                                    <p className="text-sm text-gray-500">Products Available</p>
                                 </div>
 
                                 <div>
-                                    <h3 className="text-3xl font-bold text-[#FF5A1F]">40+</h3>
-                                    <p className="text-sm text-gray-500">Countries</p>
+                                    <h3 className="text-3xl font-bold text-[#FF5A1F]">UAE</h3>
+                                    <p className="text-sm text-gray-500">Headquartered</p>
                                 </div>
 
                                 <div>
-                                    <h3 className="text-3xl font-bold text-[#FF5A1F]">500+</h3>
-                                    <p className="text-sm text-gray-500">Clients</p>
+                                    <h3 className="text-3xl font-bold text-[#FF5A1F]">Africa</h3>
+                                    <p className="text-sm text-gray-500">Supply Network</p>
                                 </div>
 
                                 <div>
-                                    <h3 className="text-3xl font-bold text-[#FF5A1F]">98%</h3>
-                                    <p className="text-sm text-gray-500">On-Time Delivery</p>
+                                    <h3 className="text-3xl font-bold text-[#FF5A1F]">24/7</h3>
+                                    <p className="text-sm text-gray-500">Client Support</p>
                                 </div>
                             </div>
                         </div>

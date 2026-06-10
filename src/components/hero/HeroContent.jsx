@@ -24,18 +24,16 @@ const HeroContent = () => {
       {/* Left Side: Heading */}
       <div className={entranceClasses("delay-100")}>
         <h2 className="mt-4 text-2xl md:text-5xl font-semibold leading-tight">
-          Powering Trade
-          <br />
-          Across Continents
+          Trusted Industrial
+          Supply
+          Across UAE & Africa
         </h2>
       </div>
 
       {/* Right Side: Paragraph and Button */}
       <div className="flex flex-col justify-between lg:items-end">
         <p className={`text-gray-600 text-sm max-w-md leading-relaxed mb-6 lg:mb-0 ${entranceClasses("delay-300")}`}>
-          Reliable import and export solutions connecting Dubai, Africa,
-          and global industrial markets with trusted shipping and supply
-          services.
+          Supplying certified industrial pipes, fittings & valves to contractors and projects across the UAE — on time, every time.
         </p>
 
         <div className={entranceClasses("delay-500")}>

@@ -9,57 +9,6 @@ export default function LogisticsProcess() {
             <div className="max-w-360 mx-auto">
 
                 {/* ========================= */}
-                {/* STATS */}
-                {/* ========================= */}
-
-                <div className="px-6 lg:px-12 mb-20">
-
-                    <p className="text-sm text-gray-500 mb-10">
-                        Numbers That Move Trade
-                    </p>
-
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-10 items-center justify-center">
-
-                        <div className="text-center">
-                            <h2 className="text-5xl lg:text-6xl font-semibold">
-                                98.5%
-                            </h2>
-
-                            <p className="mt-2 text-gray-600">
-                                On-Time Delivery
-                                <br />
-                                (Last 12 Months)
-                            </p>
-                        </div>
-
-                        <div className="text-center">
-                            <h2 className="text-5xl lg:text-6xl font-semibold">
-                                15K+
-                            </h2>
-
-                            <p className="mt-2 text-gray-600">
-                                Equipment Shipments
-                                <br />
-                                Annually
-                            </p>
-                        </div>
-
-                        <div className="text-center">
-                            <h2 className="text-5xl lg:text-6xl font-semibold">
-                                500+
-                            </h2>
-
-                            <p className="mt-2 text-gray-600">
-                                Industrial Clients
-                                <br />
-                                Across Regions
-                            </p>
-                        </div>
-
-                    </div>
-                </div>
-
-                {/* ========================= */}
                 {/* HERO IMAGE */}
                 {/* ========================= */}
 
@@ -80,11 +29,11 @@ export default function LogisticsProcess() {
                     <div className="absolute top-12 left-6 lg:left-12 max-w-2xl">
 
                         <h2 className="text-white text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight">
-                            Three simple steps to
+                            Delivering industrial
                             <br />
-                            seamless industrial
+                            piping solutions across
                             <br />
-                            trade delivery.
+                            UAE & Africa.
                         </h2>
 
                     </div>
@@ -111,8 +60,8 @@ export default function LogisticsProcess() {
           "
                     >
 
-                        <p className="text-sm text-gray-500 mb-10">
-                            How It Works
+                        <p className="text-sm text-gray-500 mb-10 uppercase tracking-wider">
+                            Our Supply Process
                         </p>
 
                         <div className="space-y-16">
