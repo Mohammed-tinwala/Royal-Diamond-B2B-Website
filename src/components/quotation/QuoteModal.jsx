@@ -14,7 +14,7 @@ export default function QuoteModal({ isOpen, onClose, product, setOpenModal }) {
             className="
                 fixed
                 inset-0
-                z-999
+                z-9999
                 flex
                 items-center
                 justify-center
